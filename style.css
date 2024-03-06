@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins&display=swap');
+body 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #400C5D;
+    font-family: 'Poppins', sans-serif;
+}
+
+input
+{
+    padding-left: 12px;
+}
+
+.to-dolist-container p
+{
+    font-size: 22px;
+    font-weight: 700;
+    color: #520452;
+}
+
+.to-dolist-container
+{
+    background-color: #fff;
+    width: 26%;
+    padding: 20px;
+    border-radius: 20px;
+}
+#text
+{
+    width: 300px;
+    height: auto;
+    border: 1px solid;
+    margin: 20px 0px;
+   border: none;
+    padding: 20px;
+}
+
+#task_add
+{
+    width: 78%;
+    height: 38px;
+    border-radius: 20px;
+    border: none;
+    background: #efefef;
+}
+#add
+{
+    border-radius: 20%;
+    padding: 10px 10px;
+    border: none;
+    background: #ff2f00;
+    color: #fff;
+}
+
+#text li
+{
+    list-style-type: none !important;
+    color: #520452;
+}
+
+.fa-trash
+{
+    margin: 10px;
+    background: #dfdfdf;
+    padding: 13px;
+    border-radius: 50%;
+}
